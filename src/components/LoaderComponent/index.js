@@ -3,7 +3,6 @@ import Loader from 'react-loader-spinner'
 const LoaderComponent = () => (
   <div
     className="loader-container"
-    testid="loader"
     style={{
       display: 'flex',
       justifyContent: 'center',
