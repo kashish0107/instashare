@@ -68,12 +68,6 @@ const ProfileComponent = props => {
           </p>
         </div>
       </div>
-      <p className="user-id-profile for-small-display">
-        {userProfileData.user_id}
-      </p>
-      <p className="user-bio-profile for-small-display">
-        {userProfileData.user_bio}
-      </p>
 
       <ul className="profile-stories-container">
         {userProfileData.stories.map(each => (
