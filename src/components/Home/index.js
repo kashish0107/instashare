@@ -96,9 +96,6 @@ class Home extends Component {
             <div className="stories-small-display">
               <Stories noOfSlidesToShow={4} userStories={userStories} />
             </div>
-            <div className="stories-large-display">
-              <Stories noOfSlidesToShow={7} userStories={userStories} />
-            </div>
           </div>
         )
       case dataFetchStatusConstants.failure:
